@@ -1,4 +1,4 @@
-body {
+.body {
     width: 100%;
     margin: 0;
     padding:0;
@@ -68,11 +68,14 @@ body {
     margin: 0 auto;
    
 }
+a {
+    color: #fff;
+    text-decoration: none;
+}
 .menu_items {
     margin: 0;
     height: 30px;
     color: #fff;
-    text-decoration: none;
 }
 
 .menu_items:hover {
@@ -80,47 +83,6 @@ body {
     color: #fff;
     border-bottom: solid 2px #fff
 
-}
-
-.carousel_heigth {
-    margin-top: 30px;
-}
-.resize_img {
-    height: 70%;
-}
-
-.info_banner {
-    display: flex;
-}
-
-.logo__ {
-    width: 35%;
-}
-
-.map__ {
-    width: 25%;
-}
-
-
-.info_members {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-top: 40px;
-    margin-left: -60px;
-}
-
-.members {
-    font-size: 40px;
-    font-weight: bold;
-    text-align: center;
-    color: #203C71;
-}
-
-.member_img {
-    width:400px;
-    margin: 0 auto;
 }
 
 .green_banner { 
@@ -131,46 +93,110 @@ body {
     padding: 20px;
 }
 
-.title_green_banner {
-    width: 700px;
-    font-size: 40px;
-    font-weight: bold;
+.contact_img {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
     margin: 0 auto;
 }
 
-.little_line {
-    width: 60px;
-    height: 3px;
+.each_img_c {
+    width: 200px;
+    height: 250px;
+}
+
+.form_container {
+    width: 100%;
+    height: fit-content;
     background: #fff;
-    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 10px;
 }
 
-.pf_green_banner {
-    width: 800px;
-    font-size: 20px;
+.conact_info {
+    text-align: center;
+    align-items: center;
+}
+
+.contact_list {
+    display: flex;
+    text-align: center;
     margin: 0 auto;
 }
 
-.certification {
-    width: 60%;
-    text-align: center;
-    margin: 10px auto;
+.contact_way {
+    color: #008AFC;
+    margin-right: 5px;
 }
 
-.certification_title {
-    font-size: 35px;
-    font-weight: bold;
-    color: #203C71;
+.form_content {
+    width: 40%;
+    height: 220px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
 }
 
-.rows_pics {
+.form_content input{
+    outline: none;
+    border: solid 1px #d4d2d2;
+    border-radius: 10px;
+    padding: 8px;
+}
+
+.form_content textarea {
+    margin-top: 10px;
+    height: 80px;
+    border: solid 1px #d4d2d2;
+    border-radius: 10px;
+    padding: 8px;
+    outline: none;
+}
+
+.geopraphy {
     width: 100%;
     display: flex;
+    justify-content: center;
+    background: #f7f7f7;
+    padding: 20px;
 }
 
-.each_pic {
-    width: 20%;
-    height: 300px;
+.states_container {
+    margin-top: 50px;
+}
+
+.circle_states {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.row_states {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.name_state {
+    width: 120px;
+    text-align: center;
+    font-size: 19px;
+    color: #fff;
+    padding: 10px;
+    background: #4DC6DC;
+    border-radius: 19px;
+    margin: 10px;
+}
+
+.footer {
+    width: 100%;
+    height: 250px;
+    background: #5693cc;
+    padding: 20px;
 }
 
 .footer {
@@ -213,3 +239,4 @@ body {
     color: #fff;
     text-align: center;
 }
+

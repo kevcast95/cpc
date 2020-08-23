@@ -1,4 +1,5 @@
 body {
+    width: 100%;
     margin: 0;
     padding:0;
     font-family: libre baskerville,serif;
@@ -95,6 +96,31 @@ a {
 
 }
 
+.about_us {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+   
+}
+
+.title_about {
+    font-size: 50px;
+    color: rgb(0, 57, 115);
+}
+
+.title_mission {
+    font-size: 40px;
+    color: rgb(0, 57, 115);
+}
+.title_vission {
+    font-size: 40px;
+    color: rgb(0, 57, 115);
+}
+.title_founder {
+    font-size: 40px;
+    color: rgb(0, 57, 115);
+}
+
 .footer {
     width: 100%;
     height: 250px;
@@ -134,4 +160,43 @@ a {
 .info_contact_footer {
     color: #fff;
     text-align: center;
+}
+
+.m_v_p {
+    width: 60%;
+    margin: 0 auto;
+    text-align: justify;
+    color: #666565;
+    font-size: 23px;
+}
+
+.fnd {
+    font-size: 20px;
+    padding: 15px;
+}
+
+
+
+.founder_profile {
+    width: 190px;
+    position: relative;
+    margin: 0 auto;
+
+}
+
+.founder_img {
+    height: 60%;
+}
+
+.text_profile {
+    width: 215px;
+    height: 150px;
+    position: absolute;
+    background: #9cc41c;
+    top: 310px;
+    color: #fff;
+}
+
+.max_g {
+    font-size: 30px;
 }

@@ -90,25 +90,26 @@ body {
 }
 
 .info_banner {
+    width: 90%;
     display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
 }
 
 .logo__ {
-    width: 35%;
+    width: 30%;
 }
 
 .map__ {
-    width: 25%;
+    width: 20%;
 }
 
 
 .info_members {
-    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin-top: 40px;
-    margin-left: -60px;
 }
 
 .members {
@@ -119,7 +120,7 @@ body {
 }
 
 .member_img {
-    width:400px;
+    width:300px;
     margin: 0 auto;
 }
 

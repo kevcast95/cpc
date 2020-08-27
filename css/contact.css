@@ -95,6 +95,7 @@
 
 .header_menu {
     width: 90%;
+    height: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -109,16 +110,48 @@ a {
 }
 .menu_items {
     margin: 0;
-    height: 30px;
     color: #fff;
 }
 
 .menu_items:hover {
     cursor: pointer;
     color: #fff;
-    border-bottom: solid 2px #fff
+    border-bottom: solid 1px #fff
 
 }
+
+.service_container {
+    position: relative;
+}
+
+.drop_down_service {
+    width: 40vh;
+    display: block;
+    position: absolute;
+    top: 40px;
+    background: rgba(235, 235, 235, 0.75);
+    z-index: 10;
+    margin-left: -70%;
+}
+
+.service_items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.all_services {
+    color: #203C71;
+    font-size: 17px;
+    margin: 5px 0;
+}
+
+.none {
+    display: none;
+}
+
 
 .green_banner { 
     width: 100%;

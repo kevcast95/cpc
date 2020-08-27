@@ -31,7 +31,20 @@
             <div class="header_menu">
                 <a  href="./index.html" class="menu_items">Inicio</a>
                 <a href="./about.html"  class="menu_items">Nosotros</a>
-                <a  href="./services.html" class="menu_items">Nuestros servicios</a>
+                <div class="service_container" onmouseover="showD()" >
+                    <a  href="./services.html" class="menu_items">Nuestros servicios</a>
+                    <div class="none" id="drop_down_service" >
+                        <div class="service_items" onmouseout="hideD()">
+                            <a  onclick="hideD()"  href="./manejo_plagas.html" class="all_services">Manejo de plagas</a>
+                            <a onclick="hideD()" href="./saneamiento.html"  class="all_services">Saneamiento</a>
+                            <a onclick="hideD()" href="./limpieza.html"  class="all_services">Limpieza de tanques</a>
+                            <a onclick="hideD()" href="./trabajos_altura.html"  class="all_services">Trabajo en altura</a>
+                            <a onclick="hideD()" href="./exlusion.html"  class="all_services">Sistema de exclusión</a>
+                            <a onclick="hideD()" href="./herm_areas.html"  class="all_services">Hermetización de áreas</a>
+                            <a onclick="hideD()" href="./comercio.html"  class="all_services">Comercialización de elementos de captura</a>
+                        </div>
+                    </div>
+                </div>
                 <a  href="./contact.html" class="menu_items">Contáctenos</a>
             </div>
        </div>
@@ -61,6 +74,37 @@
                 con equipos especializados y personal capacitado.
             </p>
         </div>
+       
+        <div class="list_of_service" >
+            <div class="eachS_item">
+                <img src="./assets/icon_ar.png" />
+                <a href="./manejo_plagas.html" class="items_S" >Manejo integral de plagas</a>
+            </div>
+            <div class="eachS_item">
+                <img src="./assets/icon_ar.png" />
+                <a  href="./saneamiento.html" class="items_S" >Saneamiento desinfeccion y sanitización industrial</a>
+            </div>
+            <div class="eachS_item">
+                <img src="./assets/icon_ar.png" />
+                <a href="./limpieza.html" class="items_S" >Limpiezas de tanques de almacenamiento de agua </a>
+            </div>
+            <div class="eachS_item">
+                <img src="./assets/icon_ar.png" />
+                <a href="./trabajos_altura.html" class="items_S" >Trabajos en alturas y programas de limpiezas industriales</a>
+            </div>
+            <div class="eachS_item">
+                <img src="./assets/icon_ar.png" />
+                <a href="./exlusion.html" class="items_S" >Sistemas de exclusión</a>
+            </div>
+            <div class="eachS_item">
+                <img src="./assets/icon_ar.png" />
+                <a href="./herm_areas.html" class="items_S" >Hermetización de áreas</a>
+            </div>
+            <div class="eachS_item">
+                <img src="./assets/icon_ar.png" />
+                <a href="./comercio.html" class="items_S" >Comercialización de elementos captura</a>
+            </div>
+        </div>
     </div>
 
     <footer class="footer" >
@@ -87,5 +131,6 @@
             </div>
         </div>
     </footer>
+    <script src="./js/classControl.js"></script>
 </body>
 </html>

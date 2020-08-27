@@ -96,7 +96,7 @@
 
 .header_menu {
     width: 90%;
-    height: 20px;
+    height: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -107,7 +107,7 @@
 }
 a {
     color: #fff;
-    text-decoration: none;
+    text-decoration: none !important;
 }
 .menu_items {
     margin: 0;
@@ -117,7 +117,6 @@ a {
 .menu_items:hover {
     cursor: pointer;
     color: #fff;
-    border-bottom: solid 1px #fff
 
 }
 

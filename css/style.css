@@ -71,7 +71,7 @@ body {
 }
 
 a {
-    text-decoration: none;
+    text-decoration: none  !important;
 }
 .menu_items {
     margin: 0;
@@ -110,7 +110,7 @@ a {
     color: #203C71;
     font-size: 17px;
     margin: 5px 0;
-    text-decoration: none !important;
+   
 }
 
 .none {
